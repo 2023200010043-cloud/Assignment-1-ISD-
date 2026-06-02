@@ -1,0 +1,82 @@
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+}
+
+nav{
+    background:#003366;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+.hero{
+    height:90vh;
+    background:url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3')
+    center/cover;
+    color:white;
+    text-align:center;
+    padding-top:200px;
+}
+
+.hero h1{
+    font-size:50px;
+}
+
+button{
+    padding:12px 25px;
+    background:#ff6600;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+#courses{
+    padding:50px;
+    text-align:center;
+}
+
+.course-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.course{
+    width:300px;
+    padding:20px;
+    box-shadow:0 0 10px gray;
+    border-radius:10px;
+}
+
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+footer a{
+    color:white;
+}
